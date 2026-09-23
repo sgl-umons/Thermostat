@@ -54,9 +54,14 @@ This approach will setup a development environment using the [Nix](https://nixos
 In progress:
 
 - statechart-level unit tests
-- JUnit tests in Java
+- write more unit tests
+- upgrade to Java 25
 
-Version 0.7 - 23 September 2026 (Tom Mens
+Version 0.8 - 23 September 2026 (Tom Mens)
+
+- add some JUnit tests in Java
+
+Version 0.7 - 23 September 2026 (Tom Mens)
 
 - fix gradle deprecation warning
 
