@@ -20,6 +20,12 @@ repositories {
    mavenCentral()
 }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
 dependencies {
     // Add jupiter-api to build the tests
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.11.4")
