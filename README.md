@@ -56,7 +56,11 @@ In progress:
 - statechart-level unit tests
 - JUnit tests in Java
 
-Version 0.6 - 21 Febrruary 2025 (Pol Dell'Aiera)
+Version 0.7 - 23 September 2026 (Tom Mens
+
+- fix gradle deprecation warning
+
+Version 0.6 - 21 February 2025 (Pol Dell'Aiera)
 
 - support for DevContainer and Nix development environments to achieve **reproducible builds**.
   
