@@ -25,6 +25,8 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.2")
     // Add jupiter-engine to run the tests
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.2")
+    // Add junit-platform-launcher explicitly, since Gradle no longer loads it automatically
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.6.2")
 }
 
 test {
@@ -47,5 +49,5 @@ jar {
 
 application {
     // Define the main class for the application.
-    mainClassName = "mythermostat.MainWindow"
+    mainClass.set("mythermostat.MainWindow")
 }
